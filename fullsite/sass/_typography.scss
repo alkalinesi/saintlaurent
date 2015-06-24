@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'social';
+	src:url('../fonts/social.eot?-5nx5y8');
+	src:url('../fonts/social.eot?#iefix-5nx5y8') format('embedded-opentype'),
+		url('../fonts/social.woff?-5nx5y8') format('woff'),
+		url('../fonts/social.ttf?-5nx5y8') format('truetype'),
+		url('../nts/social.svg?-5nx5y8#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+$font-arial: 		Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-times: 		Times New Romans, serif;
+$font-icons: 		'social', Helvetica;
+$font-franklingothic: "franklin-gothic-urw", arial;
+$font-franklingothic-condensed: "franklin-gothic-urw-cond", arial;

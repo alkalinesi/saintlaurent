@@ -1,0 +1,15 @@
+{
+  "name": "sony-pictures-classics",
+  "version": "0.0.1",
+  "description": "Basic setup for a new Sony Pictures Classics site.",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-sass": "^0.18.1",
+    "grunt-yui-compressor": "~0.1.1",
+    "node-sass": "~0.7.0"
+  }
+}

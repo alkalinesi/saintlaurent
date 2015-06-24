@@ -1,0 +1,153 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #403f3e;
+}
+
+#wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+#header {
+	background-color: #ffffff;
+}
+
+#nav {
+	margin: 7px 0 15px 45px;
+	padding: 0;
+	list-style: none;
+}
+
+#nav li {
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	float: left;
+	display: block;
+	width: 240px;
+	margin: 10px 0 10px 20px;
+	text-align: center;
+	padding: 0;
+}
+
+#nav li.buy {
+	width: auto;
+	height: 44px;
+	line-height: 44px;
+	margin: 10px 13px 10px 0;
+	font-weight: bold;
+	color: #000000;
+}
+
+#nav li a {
+	display: block;
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	background: #000000;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	webkit-transition: background-color .2s ease-out;
+ 	moz-transition: background-color .2s ease-out;
+  	o-transition: background-color .2s ease-out;
+  	transition: background-color .2s ease-out;
+}
+
+#nav li a:hover {
+	background-color: #e8028c;
+	background-position: 0 -44px;
+	color: #ffffff;
+}
+
+#content {
+	clear: both;
+	padding-top: 1px;
+	background-color: #ffffff;
+}
+
+hr {
+	margin: 10px 0;
+	border: none;
+	background-color: #e8028c;
+	height: 6px;
+}
+
+h2 {
+	text-transform: uppercase;
+	margin: 25px 0 5px 45px;
+	font-size: 19px;
+	letter-spacing: .1em;
+	color: #000000;
+}
+
+table {
+	margin: 15px 35px 25px 35px;
+	width: 954px;
+}
+
+th, td {
+	text-transform: uppercase;
+}
+
+th {
+	padding: 10px 10px 8px 10px;
+	border-top: 2px solid #c5c6c1;
+	border-bottom: 2px solid #c5c6c1;
+	text-align: left;
+}
+
+td {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px 10px;
+}
+
+tr.first td {
+	padding-top: 18px;
+}
+
+tr.light td {
+	background-color: #d8d8d4;
+}
+
+#footer {
+	background-color: #e8028c;
+	overflow: hidden;
+	height: 60px;
+	padding: 0 40px;
+	letter-spacing: .2em;
+	font-size: 14px;
+}
+
+.back {
+	float: left;
+	color: #ffffff;
+	line-height: 60px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.sony {
+	float: right;
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #cccccc;
+}

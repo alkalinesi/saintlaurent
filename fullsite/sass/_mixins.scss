@@ -1,0 +1,30 @@
+@mixin sonyclassicspictures($size){
+	font-family: $font-arial;
+	font-weight: normal;
+	color: $color-white;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.2em;
+	@include font-size($size);
+}
+
+@mixin circle($size){
+	width: $size;
+	height: $size;
+	@include border-radius($size);
+}
+
+@mixin hide-text(){
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@mixin font-size($size){
+	$newSize: ($size / 10);
+	font-size: $size + px;
+	line-height: ($size + 4) + px;
+
+	font-size: $newSize + rem;
+	line-height: ($newSize + 0.4) + rem;
+}

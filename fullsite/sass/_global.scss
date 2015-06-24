@@ -1,0 +1,94 @@
+#{headings(all)}{
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+// COLORS BOX
+#cboxOverlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+	width: 100%;
+	height: 100%;
+	background-color: $color-black;
+}
+
+#cboxContent{
+	position: relative;
+}
+
+#cboxClose{
+	position: absolute;
+	top: 0;
+	right: 39px;
+	background: transparent url('http://flash.sonypictures.com/classics/fornogoodreason/img/close-btn.png') 0 0 no-repeat;
+	border: 0;
+	outline: 0;
+	width: 66px;
+	height: 34px;
+	opacity: 0;
+	@include hide-text();
+	text-indent: 110%;
+}
+
+#colorbox{
+	z-index: 3300;
+
+	&:focus{
+		outline: 0;
+	}
+}
+
+.social{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	list-style-type: none;
+
+	li{
+		float: left;
+	}
+
+	a{
+		padding: 0 8px;
+	}
+}
+
+.icons{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	span{
+		display: none;
+		@include hide-text();
+	}
+	&:before{
+		font-family: $font-icons;
+	}
+}
+
+.facebook{
+	&:before{
+		content: "\61";
+	}
+}
+
+.twitter{
+	&:before{
+		content: "\62";
+	}
+}
+
+.tumblr{
+	&:before{
+		content: "\63";
+	}
+}
+
+.instagram{
+	&:before{
+		content: "\64";
+	}
+}
